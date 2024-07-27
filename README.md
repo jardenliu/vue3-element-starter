@@ -10,4 +10,4 @@ Learn more about the recommended Proje ct Setup and IDE Support in the [Vue Docs
 - [ ] Store
 - [ ] API
 - [X] eslint
-- [ ] Element Plus
+- [X] Element Plus

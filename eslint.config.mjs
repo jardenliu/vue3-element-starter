@@ -13,6 +13,8 @@ const compat = new FlatCompat({
 
 export default [
     ...compat.extends('@jardenliu/vue3'), {
-        rules: {},
+        rules: {
+            'no-unused-vars': 0,
+        },
     }
 ]

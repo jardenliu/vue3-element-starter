@@ -1,0 +1,39 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.useFlatConfig": true,
+    "eslint.enable": true,
+    "eslint.workingDirectories": [
+        {
+            "directory": "docs/.vitepress",
+            "changeProcessCWD": true
+        }
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "vue"
+    ],
+    "tailwindCSS.includeLanguages": {
+        "vue": "html"
+    },
+    "vue.format.script.initialIndent": false,
+    "vue.autoInsert.dotValue": true,
+    "vue.inlayHints.missingProps": false
+}
