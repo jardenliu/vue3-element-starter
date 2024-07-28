@@ -17,7 +17,8 @@
     "normalize.css": "^8.0.1",
     "pinia": "^2.2.0",
     "v-charts": "^1.19.0",
-    "vue": "^3.4.34"
+    "vue": "^3.4.34",
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.2.2",

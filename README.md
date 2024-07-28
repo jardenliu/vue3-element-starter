@@ -6,7 +6,7 @@ Learn more about the recommended Proje ct Setup and IDE Support in the [Vue Docs
 
 - [X] UnoCSS
 - [X] commitlint
-- [ ] Router
+- [X] Router
 - [X] Store
 - [ ] API
 - [X] eslint
