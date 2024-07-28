@@ -2,9 +2,10 @@
   <h1>{{ msg }}</h1>
   <Bbb msg=""></Bbb>
   <div class="card">
+    {{ baseStore.doubleCount }}
     <el-button
       type="primary"
-      @click="count++">count is {{ count }}</el-button>
+      @click="baseStore.count++">count is {{ baseStore.count }}</el-button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
@@ -27,10 +28,12 @@
 </template>
 
 <script setup lang="ts">
+import { useBaseStore } from '@/store/base'
 import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
 
+const baseStore = useBaseStore()
 const count = ref(0)
 </script>
 
