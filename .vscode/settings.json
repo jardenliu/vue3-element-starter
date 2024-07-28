@@ -38,6 +38,8 @@
     "vue.inlayHints.missingProps": false,
     "stylelint.validate": [
         // ↓ Add "stylus" language.
-        "stylus"
+        "stylus",
+        "vue",
+        "css"
     ]
 }
