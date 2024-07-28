@@ -43,12 +43,18 @@ devDependencies:
   '@eslint/js':
     specifier: ^9.7.0
     version: 9.7.0
+  '@iconify-json/ep':
+    specifier: ^1.1.15
+    version: 1.1.15
   '@jardenliu/eslint-config-vue3':
     specifier: ^1.0.0
     version: 1.0.0(eslint@9.7.0)
   '@types/node':
     specifier: ^20.14.12
     version: 20.14.12
+  '@unocss/preset-icons':
+    specifier: ^0.61.6
+    version: 0.61.6
   '@vitejs/plugin-vue':
     specifier: ^5.0.5
     version: 5.0.5(vite@5.3.4)(vue@3.4.34)
@@ -960,6 +966,12 @@ packages:
     engines: {node: '>=18.18'}
     dev: true
 
+  /@iconify-json/ep@1.1.15:
+    resolution: {integrity: sha512-96JBJQrJhxYy+j+KE5lqyE+Y6O+06fVUdMaHJ1Rb9+bbOjI1tw6EwYl9H4SB6Hkf7zB80VX6GgG0yH0Z0c8K1Q==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify/types@2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: true
@@ -1459,6 +1471,10 @@ packages:
     resolution: {integrity: sha512-hB8zr2rnrCzz9x8ho2SAXQiYTEjwAPMiBzpaEe2C0+CFWeL1179h9508YVyZHHAzMyZILIG9YrVAWrrMdt2/Xg==}
     dev: true
 
+  /@unocss/core@0.61.6:
+    resolution: {integrity: sha512-z1O1fnMRvmX1zkvbKVZ7jKUOHZHw/tUBYDNpll1rx9wjmps/MHfv7K5C5FiOTaW9S9H5r2LSjW/MaMs0dxgoCw==}
+    dev: true
+
   /@unocss/extractor-arbitrary-variants@0.61.5:
     resolution: {integrity: sha512-UB1EweAaJrUxv+h3n5FqoizKHrnUgUzkdmOdJTfV6xvow90ITqbUoza+L6iVMNfcrcXTx8QpDnWh6rhLRyKY+g==}
     dependencies:
@@ -1500,6 +1516,16 @@ packages:
     dependencies:
       '@iconify/utils': 2.1.25
       '@unocss/core': 0.61.5
+      ofetch: 1.3.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@unocss/preset-icons@0.61.6:
+    resolution: {integrity: sha512-fJqzZcskz+1e01rsgALuVY2dO2f/rlJzL5GUzcTrvg9mMdnk4XufoA15ItC6dopDj2SUomvR0hnKiYcAsAB5+g==}
+    dependencies:
+      '@iconify/utils': 2.1.25
+      '@unocss/core': 0.61.6
       ofetch: 1.3.4
     transitivePeerDependencies:
       - supports-color

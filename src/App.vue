@@ -1,5 +1,6 @@
 <template>
   <el-config-provider :locale="zhCn">
+    <span class="i-ep-add-location"></span>
     <div>
       <HelloWorld msg="app"></HelloWorld>
       <nav>
