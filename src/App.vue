@@ -23,7 +23,7 @@
 </template>
 
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
 import zhCn from 'element-plus/es/locale/lang/zh-cn'
 
 </script>
