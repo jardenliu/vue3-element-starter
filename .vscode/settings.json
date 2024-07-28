@@ -35,5 +35,9 @@
     },
     "vue.format.script.initialIndent": false,
     "vue.autoInsert.dotValue": true,
-    "vue.inlayHints.missingProps": false
+    "vue.inlayHints.missingProps": false,
+    "stylelint.validate": [
+        // ↓ Add "stylus" language.
+        "stylus"
+    ]
 }

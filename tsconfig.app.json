@@ -34,7 +34,16 @@
       "node",
       "vite/client",
       "element-plus/global"
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "#/*": [
+        "./types/*"
+      ]
+    }
   },
   "include": [
     "src/**/*.ts",

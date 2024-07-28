@@ -11,3 +11,5 @@ Learn more about the recommended Proje ct Setup and IDE Support in the [Vue Docs
 - [ ] API
 - [X] eslint
 - [X] Element Plus
+- [X] Stylus
+- [X] stylelint

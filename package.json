@@ -14,6 +14,7 @@
     "axios": "^1.7.2",
     "echarts": "^5.5.1",
     "element-plus": "^2.7.8",
+    "normalize.css": "^8.0.1",
     "pinia": "^2.1.7",
     "v-charts": "^1.19.0",
     "vue": "^3.4.34"
@@ -29,6 +30,9 @@
     "eslint": "^9.7.0",
     "eslint-plugin-import": "^2.29.1",
     "husky": "^9.1.2",
+    "stylelint": "^16.7.0",
+    "stylelint-stylus": "^1.0.0",
+    "stylus": "^0.63.0",
     "typescript": "^5.2.2",
     "unocss": "^0.61.5",
     "vite": "^5.3.4",
