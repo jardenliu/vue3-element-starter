@@ -2,6 +2,7 @@ import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import UnoCSS from 'unocss/vite'
+import autoprefixer from 'autoprefixer'
 
 const root = process.cwd()
 
@@ -27,4 +28,9 @@ export default defineConfig({
         UnoCSS()
 
     ],
+    css: {
+        postcss: {
+            plugins: [autoprefixer()],
+        },
+    },
 })
