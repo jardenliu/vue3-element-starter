@@ -11,6 +11,9 @@ dependencies:
   axios:
     specifier: ^1.7.2
     version: 1.7.2
+  axiostr:
+    specifier: 0.0.1-prerelease
+    version: 0.0.1-prerelease
   echarts:
     specifier: ^5.5.1
     version: 5.5.1
@@ -2020,6 +2023,10 @@ packages:
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
+    dev: false
+
+  /axiostr@0.0.1-prerelease:
+    resolution: {integrity: sha512-v5jpJlJgkvnIfDSnj39Ikic2nxL2vGLwscRUx/F0U1of90eNtzCUnLSlRGEtoHyTO8ATrnGLBR1bubBkV7aBnw==}
     dev: false
 
   /balanced-match@1.0.2:
